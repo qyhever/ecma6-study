@@ -24,10 +24,11 @@ import 'babel-polyfill'; // 垫片
 
 // import '@/js/module/m2.js';
 
-Number.prototype.add = function(x) {
+
+/* Number.prototype.add = function(x) {
     return this + x;
 };
 // 数值后面的点，会被解释为小数点，而不是点运算符
 // var num = 8['add'](2);
 var num = (8).add(2);
-console.log(num);
+console.log(num); */
