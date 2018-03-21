@@ -1,6 +1,10 @@
 /**
  * 入口文件
  */
+import Vue from 'vue';
+import App from './App';
+import router from './router';
+
 import 'babel-polyfill'; // 垫片
 
 
@@ -20,7 +24,7 @@ import 'babel-polyfill'; // 垫片
 // import '@/ecma6script/async-programme/01callback'
 // import '@/ecma6script/async-programme/02promise'
 // import '@/ecma6script/async-programme/03generator'
-// import '@/ecma6script/async-programme/04async'
+import '@/ecma6script/async-programme/04async'
 
 // import '@/ecma6script/module/m2.js';
 
@@ -32,3 +36,10 @@ import 'babel-polyfill'; // 垫片
 // var num = 8['add'](2);
 var num = (8).add(2);
 console.log(num); */
+
+new Vue({
+  el: '#app',
+  router,
+  components: { App },
+  template: '<App/>'
+});
