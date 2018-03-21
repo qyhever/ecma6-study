@@ -4,25 +4,25 @@
 import 'babel-polyfill'; // 垫片
 
 
-// import '@/js/01variable-statement';
-// import '@/js/02variable-deconstruction';
-// import '@/js/03string-extend';
+// import '@/ecma6script/01variable-statement';
+// import '@/ecma6script/02variable-deconstruction';
+// import '@/ecma6script/03string-extend';
 
-// import '@/js/05number-extend';
-// import '@/js/06function-extend';
-// import '@/js/07array-extend';
-// import '@/js/08object-extend';
-// import '@/js/09symbol';
-// import '@/js/10Set-and-Map';
+// import '@/ecma6script/05number-extend';
+// import '@/ecma6script/06function-extend';
+// import '@/ecma6script/07array-extend';
+// import '@/ecma6script/08object-extend';
+// import '@/ecma6script/09symbol';
+// import '@/ecma6script/10Set-and-Map';
 
-// import '@/js/15Generator';
+// import '@/ecma6script/15Generator';
 
-// import '@/js/async-programme/01callback'
-// import '@/js/async-programme/02promise'
-// import '@/js/async-programme/03generator'
-// import '@/js/async-programme/04async'
+// import '@/ecma6script/async-programme/01callback'
+// import '@/ecma6script/async-programme/02promise'
+// import '@/ecma6script/async-programme/03generator'
+// import '@/ecma6script/async-programme/04async'
 
-// import '@/js/module/m2.js';
+// import '@/ecma6script/module/m2.js';
 
 
 /* Number.prototype.add = function(x) {
