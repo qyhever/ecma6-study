@@ -23,8 +23,8 @@ import 'babel-polyfill'; // 垫片
 
 // import '@/ecma6script/async-programme/01callback'
 // import '@/ecma6script/async-programme/02promise'
-// import '@/ecma6script/async-programme/03generator'
-import '@/ecma6script/async-programme/04async'
+import '@/ecma6script/async-programme/03generator'
+// import '@/ecma6script/async-programme/04async'
 
 // import '@/ecma6script/module/m2.js';
 

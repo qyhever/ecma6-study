@@ -1,5 +1,5 @@
 /**
- * 
+ * 异步终极解决方案
  */
 import axios from 'axios';
 import qs from 'qs';
